@@ -7,15 +7,6 @@ app.use(express.urlencoded({ extended: false }));
 app.use(express.json());
 
 
-
-
-
-app.get('/', (req, res) => {
-  res.json({
-    message: 'hello'
-  });
-});
-
 //default response for any other request (not found)
 app.use((req, res) => {
   res.status(404).end();
