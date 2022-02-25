@@ -2,7 +2,7 @@
   "name": "u-develop-it",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "jest",
     "start": "node server.js"
@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/markcfleming1990/u-develop-it#readme",
   "dependencies": {
-    "express": "^4.17.2",
+    "express": "^4.17.3",
     "mysql2": "^2.3.3"
   },
   "devDependencies": {
